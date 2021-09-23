@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+    <div class="quiz_container" id="quiz_container">
+        <div class="question_container" id="question_container">
+            <div class="question">
+                <h2 id="question">question text</h2>
+            </div>
+            <div class="option">
+                <ul>
+                    <li>
+                        <input type="radio" name="optradio" id="a" class="answer">
+                        <label for="a" id="a_text"></label>
+                    </li>
+                    <li>
+                        <input type="radio" name="optradio" id="b" class="answer"> 
+                        <label for="b" id="b_text"></label>
+                    </li>
+                    <li>
+                        <input type="radio" name="optradio" id="c" class="answer">
+                        <label for="c" id="c_text"></label>
+                    </li>
+                    <li>
+                        <input type="radio" name="optradio" id="d" class="answer">
+                        <label for="d" id="d_text"></label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="button">
+            <button type="button" name="btnsubmit" id="btnsubmit">Submit</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
